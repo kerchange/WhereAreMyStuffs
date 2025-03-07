@@ -34,16 +34,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				WhereAreMyStuffs.xcdatamodel,
 			);
 			target = F35373412D773B950038C6F8 /* WhereAreMyStuffs */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F35373D02D7761390038C6F8 /* Exceptions for "WhereAreMyStuffs" folder in "Copy Bundle Resources" phase from "WhereAreMyStuffs" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F35373402D773B950038C6F8 /* Resources */;
+			membershipExceptions = (
+				WhereAreMyStuffs.xcdatamodel,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F35373442D773B950038C6F8 /* WhereAreMyStuffs */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				F353736B2D773B960038C6F8 /* Exceptions for "WhereAreMyStuffs" folder in "WhereAreMyStuffs" target */,
+				F35373D02D7761390038C6F8 /* Exceptions for "WhereAreMyStuffs" folder in "Copy Bundle Resources" phase from "WhereAreMyStuffs" target */,
 			);
 			path = WhereAreMyStuffs;
 			sourceTree = "<group>";
@@ -291,9 +303,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhereAreMyStuffs/Preview Content\"";
+				DEVELOPMENT_TEAM = J2F9B6BZ5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhereAreMyStuffs/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WhereAreMyStuffs needs camera access to take photos of your storage areas and items";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "WhereAreMyStuffs needs photo library access to select images for your storage areas and items";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,9 +336,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhereAreMyStuffs/Preview Content\"";
+				DEVELOPMENT_TEAM = J2F9B6BZ5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhereAreMyStuffs/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "WhereAreMyStuffs needs camera access to take photos of your storage areas and items";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "WhereAreMyStuffs needs photo library access to select images for your storage areas and items";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,6 +485,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2F9B6BZ5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -485,6 +504,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2F9B6BZ5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
@@ -502,6 +522,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2F9B6BZ5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kcdev.WhereAreMyStuffsUITests;
@@ -518,6 +539,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2F9B6BZ5U;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kcdev.WhereAreMyStuffsUITests;
